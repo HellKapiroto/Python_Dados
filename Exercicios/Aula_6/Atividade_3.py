@@ -1,0 +1,5 @@
+nota1 = int(input('Digite uma nota: '))
+nota2 = int(input('Digite outra nota: '))
+nota3 = int(input('Digite outra nota: '))
+media = ((nota1 + nota2 + nota3) / 3 )
+print(f'A media das suas notas é {media:.2f}')

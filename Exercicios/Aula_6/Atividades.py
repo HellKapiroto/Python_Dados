@@ -1,0 +1,11 @@
+nome = input('Qual seu nome? ')
+print('Olá', nome)
+ano = int(input('Qual sua idade? '))
+idade = (ano - 2026)
+nota1 = int(input('Digite uma nota: '))
+nota2 = int(input('Digite outra nota: '))
+nota3 = int(input('Digite outra nota: '))
+media = ((nota1 + nota2 + nota3) / 3 )
+print('A media das suas notas é', media)
+aposentadoria = 65 - idade
+print('Voce ira se aposentar em ', aposentadoria, ' anos')
